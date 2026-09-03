@@ -16,7 +16,8 @@ O portfólio foi criado no **Figma**, com apoio do **ChatGPT** para planejamento
 
 Apresentação pessoal, resumo profissional e informações de contato.
 
-![Tela Sobre Mim](imagens/tela-1-sobre-mim.png)
+![Tela Sobre Mim](<img width="991" height="644" alt="Captura de tela 2026-09-03 150138" src="https://github.com/user-attachments/assets/26ecbadd-9315-495c-9d4c-b5adabea3991" />
+)
 
 ### 2. Formação Acadêmica
 
