@@ -16,20 +16,22 @@ O portfólio foi criado no **Figma**, com apoio do **ChatGPT** para planejamento
 
 Apresentação pessoal, resumo profissional e informações de contato.
 
-![Tela Sobre Mim](<img width="991" height="644" alt="Captura de tela 2026-09-03 150138" src="https://github.com/user-attachments/assets/8c6c249e-1645-40de-9d31-02f182c52cc6" />
-)
+<img width="1020" height="636" alt="Captura de tela 2026-09-03 162452" src="https://github.com/user-attachments/assets/5c98e309-b23e-40c1-930d-574f911e2340" />
+
+
 
 ### 2. Formação Acadêmica
 
 Apresentação da formação acadêmica, cursos e objetivo profissional.
 
-![Tela Formação Acadêmica](imagens/tela-2-formacao.png)
+<img width="1019" height="638" alt="Captura de tela 2026-09-03 162524" src="https://github.com/user-attachments/assets/3d9f5603-8d11-4914-8a47-a60fe8d92528" />
+
 
 ### 3. Habilidades e Projetos
 
 Apresentação das Hard Skills, Soft Skills e do projeto de E-commerce desenvolvido com Angular.
 
-![Tela Habilidades](imagens/tela-3-habilidades.png)
+<img width="1084" height="637" alt="Captura de tela 2026-09-03 162612" src="https://github.com/user-attachments/assets/642db06a-4bbc-434d-9852-54c64b9b11bd" />
 
 ## Ferramentas utilizadas
 
