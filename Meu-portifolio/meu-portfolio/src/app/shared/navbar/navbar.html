@@ -1,11 +1,11 @@
 <nav class="navbar">
-
+<!-- 
     <button routerLink="routerLink/certificacoes">Certificações</button>
     <button routerLink="routerLink/formacao-academica">Formação-Academica</button>
     <button routerLink="routerLink/habilidades">Habilidades</button>
     <button routerLink="routerLink/objetivo-profissional">Objetivo-profissional</button>
     <button routerLink="routerLink/projetos">Projetos</button>
-    <button routerLink="routerLink/qualificacoes">Qualificações</button>
+    <button routerLink="routerLink/qualificacoes">Qualificações</button> -->
 
 
 
@@ -15,69 +15,98 @@
 
 
 
+<button>
 
-  <div class="navbar-brand">
-    <a routerLink="/sobre">Meu Portfólio</a>
-  </div>
+    <div class="navbar-brand">
+      <a routerLink="/sobre">Meu Portfólio</a>
+    </div>
+
+</button>
 
   <ul class="navbar-menu">
 
-    <li>
-      <a
-        routerLink="/sobre"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }">
-        Sobre
-      </a>
-    </li>
+    <button>
 
-    <li>
-      <a
-        routerLink="/objetivo-profissional"
-        routerLinkActive="active">
-        Objetivo Profissional
-      </a>
-    </li>
+        <a
+          routerLink="/sobre"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }">
+          Sobre
+        </a>
 
-    <li>
-      <a
-        routerLink="/formacao-academica"
-        routerLinkActive="active">
-        Formação Acadêmica
-      </a>
-    </li>
+    </button>
+    
+    <br>
 
-    <li>
-      <a
-        routerLink="/habilidades"
-        routerLinkActive="active">
-        Habilidades
-      </a>
-    </li>
+    <button mat-flat-button>
+        <a
+          routerLink="/objetivo-profissional"
+          routerLinkActive="active">
+          Objetivo Profissional
+        </a>
 
-    <li>
-      <a
-        routerLink="/certificacoes"
-        routerLinkActive="active">
-        Certificações
-      </a>
-    </li>
+    </button>
 
-    <li>
-      <a
-        routerLink="/qualificacoes"
-        routerLinkActive="active">
-        Qualificações
-      </a>
-    </li>
+    <br>
 
-    <li>
-      <a
-        routerLink="/projetos"
-        routerLinkActive="active">
-        Projetos
-      </a>
-    </li>
+    <button>
+
+        <a
+          routerLink="/formacao-academica"
+          routerLinkActive="active">
+          Formação Acadêmica
+        </a>
+        
+    </button>
+    
+    <br>
+
+    <button>
+
+    <a
+      routerLink="/habilidades"
+      routerLinkActive="active">
+      Habilidades
+    </a>
+
+    </button>
+
+    <br>
+
+    <button>
+
+        <a
+          routerLink="/certificacoes"
+          routerLinkActive="active">
+          Certificações
+        </a>
+
+    </button>
+     
+    <br>
+
+    <button>
+
+        <a
+          routerLink="/qualificacoes"
+          routerLinkActive="active">
+          Qualificações
+        </a>
+
+    </button>
+   
+    <br>
+
+    <button>
+
+        <a
+          routerLink="/projetos"
+          routerLinkActive="active">
+          Projetos
+        </a>
+
+    </button>
+    
 
   </ul>
 
