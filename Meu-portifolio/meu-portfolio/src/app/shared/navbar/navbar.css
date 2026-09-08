@@ -1,3 +1,55 @@
-.navbar{
-    margin: 50;
+.navbar {
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+  background: #0b1627;
+  border-bottom: 1px solid #263d5b;
+}
+
+.logo {
+  color: #5b9cf6;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  color: #aab4c3;
+
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #5b9cf6;
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .menu a {
+    font-size: 12px;
+  }
+
 }

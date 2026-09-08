@@ -1,0 +1,210 @@
+/* ================================
+   CONFIGURAÇÕES GERAIS
+================================ */
+
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family:
+    Inter,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  background: #08111f;
+  color: #f1f5f9;
+}
+
+main {
+  min-height: calc(100vh - 64px);
+  background:
+   
+    #08111f;
+}
+
+router-outlet {
+  display: none;
+}
+
+
+/* ================================
+   CONTAINER PADRÃO
+================================ */
+
+.page {
+  width: min(1100px, calc(100% - 80px));
+  margin: 0 auto;
+  padding: 55px 0;
+}
+
+
+/* ================================
+   TÍTULOS
+================================ */
+
+.page h1 {
+  margin: 0;
+
+  color: #f8fafc;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.page h2 {
+  margin: 0;
+
+  color: #f1f5f9;
+
+  font-size: 22px;
+  font-weight: 650;
+}
+
+.page h3 {
+  color: #f1f5f9;
+}
+
+
+/* ================================
+   TEXTOS
+================================ */
+
+.page p {
+  color: #a8b5c7;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* ================================
+   CARDS
+================================ */
+
+.card {
+  background: #111e31;
+
+  border: 1px solid #263d5b;
+
+  border-radius: 12px;
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+
+  border-color: #4f94f8;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ================================
+   BOTÕES
+================================ */
+
+.btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 24px;
+
+  border-radius: 7px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+}
+
+.btn-primary {
+  background: #5b9cf6;
+
+  color: #07111f;
+}
+
+.btn-primary:hover {
+  background: #70aafa;
+
+  transform: translateY(-2px);
+}
+
+
+/* ================================
+   RODAPÉ
+================================ */
+
+.footer {
+  width: min(1100px, calc(100% - 80px));
+
+  margin: 0 auto;
+
+  padding: 18px 0 25px;
+
+  border-top: 1px solid #22354f;
+
+  color: #77879d;
+
+  font-size: 11px;
+}
+
+
+/* ================================
+   RESPONSIVIDADE
+================================ */
+
+@media (max-width: 800px) {
+
+  .page {
+    width: calc(100% - 40px);
+
+    padding: 40px 0;
+  }
+
+  .page h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+    width: calc(100% - 40px);
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .page {
+    width: calc(100% - 30px);
+  }
+
+  .page h1 {
+    font-size: 27px;
+  }
+}

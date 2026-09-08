@@ -1,0 +1,158 @@
+.pagina {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.pagina > p {
+  color: #aab4c3;
+}
+
+.titulo {
+  margin-top: 35px;
+  color: white;
+  font-size: 22px;
+}
+
+
+/* HARD SKILLS */
+
+.habilidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.habilidade {
+  padding: 20px;
+
+  background: #111e31;
+  border: 1px solid #263d5b;
+  border-radius: 10px;
+}
+
+.habilidade > div:first-child {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.habilidade strong {
+  color: #5b9cf6;
+}
+
+.barra {
+  height: 6px;
+  margin-top: 12px;
+
+  background: #263d5b;
+  border-radius: 10px;
+}
+
+.progresso {
+  height: 100%;
+
+  background: #5b9cf6;
+  border-radius: 10px;
+}
+
+.html {
+  width: 80%;
+}
+
+.css {
+  width: 75%;
+}
+
+.typescript {
+  width: 65%;
+}
+
+.angular {
+  width: 60%;
+}
+
+
+/* SOFT SKILLS */
+
+.soft-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+
+  background: #111e31;
+  border: 1px solid #263d5b;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card p {
+  color: #aab4c3;
+}
+
+
+/* PROJETO */
+
+.projeto {
+  padding: 25px;
+
+  background: #111e31;
+  border: 1px solid #263d5b;
+  border-radius: 10px;
+}
+
+.projeto h2 {
+  color: white;
+}
+
+.projeto p {
+  color: #aab4c3;
+  line-height: 1.6;
+}
+
+.projeto span {
+  display: inline-block;
+
+  margin-right: 8px;
+  padding: 5px 10px;
+
+  background: #1a3150;
+  color: #5b9cf6;
+
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+  .formacoes,
+  .habilidades,
+  .soft-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .contato {
+    display: block;
+  }
+
+  .contato div {
+    margin-bottom: 15px;
+  }
+}

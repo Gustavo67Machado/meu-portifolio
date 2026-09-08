@@ -1,113 +1,23 @@
 <nav class="navbar">
-<!-- 
-    <button routerLink="routerLink/certificacoes">Certificações</button>
-    <button routerLink="routerLink/formacao-academica">Formação-Academica</button>
-    <button routerLink="routerLink/habilidades">Habilidades</button>
-    <button routerLink="routerLink/objetivo-profissional">Objetivo-profissional</button>
-    <button routerLink="routerLink/projetos">Projetos</button>
-    <button routerLink="routerLink/qualificacoes">Qualificações</button> -->
 
+  <a routerLink="/sobre" class="logo">
+    GM
+  </a>
 
+  <div class="menu">
 
+    <a routerLink="/sobre">
+      Sobre mim
+    </a>
 
+    <a routerLink="/formacao-academica">
+      Formação
+    </a>
 
-
-
-
-
-<button>
-
-    <div class="navbar-brand">
-      <a routerLink="/sobre">Meu Portfólio</a>
-    </div>
-
-</button>
-
-  <ul class="navbar-menu">
-
-    <button>
-
-        <a
-          routerLink="/sobre"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }">
-          Sobre
-        </a>
-
-    </button>
-    
-    <br>
-
-    <button mat-flat-button>
-        <a
-          routerLink="/objetivo-profissional"
-          routerLinkActive="active">
-          Objetivo Profissional
-        </a>
-
-    </button>
-
-    <br>
-
-    <button>
-
-        <a
-          routerLink="/formacao-academica"
-          routerLinkActive="active">
-          Formação Acadêmica
-        </a>
-        
-    </button>
-    
-    <br>
-
-    <button>
-
-    <a
-      routerLink="/habilidades"
-      routerLinkActive="active">
+    <a routerLink="/habilidades">
       Habilidades
     </a>
 
-    </button>
-
-    <br>
-
-    <button>
-
-        <a
-          routerLink="/certificacoes"
-          routerLinkActive="active">
-          Certificações
-        </a>
-
-    </button>
-     
-    <br>
-
-    <button>
-
-        <a
-          routerLink="/qualificacoes"
-          routerLinkActive="active">
-          Qualificações
-        </a>
-
-    </button>
-   
-    <br>
-
-    <button>
-
-        <a
-          routerLink="/projetos"
-          routerLinkActive="active">
-          Projetos
-        </a>
-
-    </button>
-    
-
-  </ul>
+  </div>
 
 </nav>
